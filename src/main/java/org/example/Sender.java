@@ -29,9 +29,4 @@ public class Sender {
         e.printStackTrace();
         }
     }
-
-    public String read(InputStream inputStream){
-        BufferedReader b=new BufferedReader(new InputStreamReader( inputStream));
-        return "";
-    }
 }
